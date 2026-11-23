@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEXORA AI - Intelligence Beyond Imagination. Next-generation artificial intelligence platforms, neural computing, and autonomous enterprise solutions.">
+    <meta name="keywords" content="AI, Artificial Intelligence, Neural Networks, Machine Learning, Deep Learning, Computer Vision, Generative AI, Nexora">
+    <title>NEXORA AI | Intelligence Beyond Imagination</title>
+    
+    <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, Orbitron & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-midnight text-light selection-cyan">
+
+    <!-- Ambient Cursor Glow Spotlight -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Announcement / System Ticker Bar -->
+    <div class="top-status-bar">
+        <div class="container status-flex">
+            <div class="status-item">
+                <span class="pulse-indicator"></span>
+                <span class="mono-badge">CORE v4.8 ONLINE</span>
+                <span class="status-sep">|</span>
+                <span class="status-text">Nexora Neural Cluster Global Synchronization: <strong>99.998% Uptime</strong></span>
+            </div>
+            <div class="status-item hide-mobile">
+                <span class="tag-pill"><i class="fa-solid fa-bolt text-cyan"></i> Quantum Latency: 1.14ms</span>
+                <a href="#products" class="status-link">Explore New Releases <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- STICKY NAVIGATION BAR -->
+    <header class="header sticky-nav" id="mainHeader">
+        <div class="nav-container">
+            <!-- Brand Logo -->
+            <a href="#home" class="logo-brand">
+                <div class="logo-symbol">
+                    <div class="cube-inner"></div>
+                    <div class="cube-orbit"></div>
+                </div>
+                <div class="logo-text-group">
+                    <span class="brand-name">NEXORA<span class="text-cyan">.AI</span></span>
+                    <span class="brand-sub">BEYOND IMAGINATION</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">AI Products</a></li>
+                    <li class="nav-item"><a href="#applications" class="nav-link">Applications</a></li>
+                    <li class="nav-item"><a href="#technology" class="nav-link">Technology</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Our Team</a></li>
+                    <li class="nav-item"><a href="#future" class="nav-link">Innovation</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Nav Action Buttons -->
+            <div class="nav-actions">
+                <a href="#contact" class="btn-primary-glow btn-sm">
+                    <span class="btn-text">Get Started</span>
+                    <i class="fa-solid fa-chevron-right btn-icon"></i>
+                </a>
+                <!-- Mobile Hamburger Toggle -->
+                <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. HERO SECTION -->
+        <section class="hero-section" id="home">
+            <!-- Interactive Particle & Neural Canvas Background -->
+            <canvas id="neuralCanvas" class="neural-canvas"></canvas>
+            
+            <!-- Ambient Glowing Lighting Blobs -->
+            <div class="ambient-glow glow-cyan"></div>
+            <div class="ambient-glow glow-violet"></div>
+            <div class="ambient-glow glow-blue"></div>
+
+            <div class="container hero-grid">
+                <!-- Left Hero Content -->
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="hero-badge">
+                        <span class="badge-icon"><i class="fa-solid fa-brain-circuit"></i></span>
+                        <span class="badge-text">NEXT-GEN SYNTHETIC COGNITION</span>
+                        <span class="badge-tag">ISO/IEC 42001 CERTIFIED</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        THE FUTURE IS <br>
+                        <span class="gradient-text-electric">INTELLIGENT.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Discover how artificial intelligence is transforming businesses, industries and the world. NEXORA AI designs hyper-scalable neural architectures and autonomous decision systems built to surpass human limits.
+                    </p>
+
+                    <!-- Hero Call to Action Buttons -->
+                    <div class="hero-cta-group">
+                        <a href="#products" class="btn-primary-glow">
+                            <span class="btn-text">Explore Our AI</span>
+                            <i class="fa-solid fa-microchip btn-icon"></i>
+                        </a>
+                        <a href="#future" class="btn-glass-secondary">
+                            <i class="fa-solid fa-atom btn-icon"></i>
+                            <span class="btn-text">Discover Innovation</span>
+                        </a>
+                    </div>
+
+                    <!-- Live Metrics Bar -->
+                    <div class="hero-telemetry">
+                        <div class="telemetry-item">
+                            <span class="telemetry-val">10B+</span>
+                            <span class="telemetry-lbl">Tokens Processed / Sec</span>
+                        </div>
+                        <div class="telemetry-sep"></div>
+                        <div class="telemetry-item">
+                            <span class="telemetry-val">99.98%</span>
+                            <span class="telemetry-lbl">Neural Precision</span>
+                        </div>
+                        <div class="telemetry-sep"></div>
+                        <div class="telemetry-item">
+                            <span class="telemetry-val">&lt; 2.5ms</span>
+                            <span class="telemetry-lbl">Inference Latency</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero 3D AI Sphere & Neural Visual -->
+                <div class="hero-visual" data-aos="zoom-in">
+                    <div class="ai-sphere-stage">
+                        <!-- Holographic 3D Rings -->
+                        <div class="orbit-ring ring-1"></div>
+                        <div class="orbit-ring ring-2"></div>
+                        <div class="orbit-ring ring-3"></div>
+                        <div class="orbit-ring ring-equator"></div>
+
+                        <!-- Central Glowing 3D AI Core -->
+                        <div class="ai-core-sphere">
+                            <div class="core-inner-glow"></div>
+                            <div class="core-grid"></div>
+                            <div class="core-pulse-wave"></div>
+                            <div class="core-icon-center">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                        </div>
+
+                        <!-- Floating Cybernetic Data Badges -->
+                        <div class="floating-badge badge-top-left float-anim-1">
+                            <div class="badge-dot-live"></div>
+                            <div class="badge-info">
+                                <span class="badge-metric">NEURAL MATRIX v5.2</span>
+                                <span class="badge-sub">Auto-Optimizing</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-top-right float-anim-2">
+                            <i class="fa-solid fa-shield-halved text-cyan"></i>
+                            <div class="badge-info">
+                                <span class="badge-metric">ZERO-DAY DEFENSE</span>
+                                <span class="badge-sub">Adaptive Guardrails Active</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bottom-right float-anim-3">
+                            <i class="fa-solid fa-chart-network text-violet"></i>
+                            <div class="badge-info">
+                                <span class="badge-metric">SYNAPSE CLUSTER</span>
+                                <span class="badge-sub">1,048,576 Virtual Nodes</span>
+                            </div>
+                        </div>
+
+                        <!-- Laser Scan Line -->
+                        <div class="laser-scanner"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Down Indicator -->
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">EXPLORE NEXORA</span>
+            </a>
+        </section>
+
+        <!-- 4. ABOUT OUR COMPANY -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-compass-drafting"></i> PIONEERING THE NEW INTELLIGENCE
+                    </div>
+                    <h2 class="section-title">Architecting The Autonomous Future</h2>
+                    <p class="section-subtitle">
+                        NEXORA AI represents the zenith of contemporary cognitive computing. We engineer proprietary deep learning engines, transformer layers, and quantum-ready AI algorithms that redefine enterprise potential.
+                    </p>
+                </div>
+
+                <!-- About Grid -->
+                <div class="about-grid">
+                    <!-- Left: Story & Pillars -->
+                    <div class="about-narrative" data-aos="fade-right">
+                        <div class="narrative-card">
+                            <div class="icon-bubble cyan-glow">
+                                <i class="fa-solid fa-eye-low-vision"></i>
+                            </div>
+                            <div class="narrative-text">
+                                <h3>Our Vision</h3>
+                                <p>To construct an interconnected planetary intelligence where humans and cognitive AI symbiotically solve humanity's most complex challenges—from climate modeling to interstellar physics.</p>
+                            </div>
+                        </div>
+
+                        <div class="narrative-card">
+                            <div class="icon-bubble violet-glow">
+                                <i class="fa-solid fa-crosshairs"></i>
+                            </div>
+                            <div class="narrative-text">
+                                <h3>Our Mission</h3>
+                                <p>Deliver uncompromising, ethical, and mathematically verifiable AI solutions that eliminate operational friction, synthesize insights from chaos, and unlock limitless commercial velocity.</p>
+                            </div>
+                        </div>
+
+                        <div class="narrative-card">
+                            <div class="icon-bubble blue-glow">
+                                <i class="fa-solid fa-dna"></i>
+                            </div>
+                            <div class="narrative-text">
+                                <h3>Innovation Philosophy</h3>
+                                <p>We adhere to "First-Principles Cognition": eliminating legacy heuristic bloat in favor of self-supervised neural plasticity, sub-millisecond tensor processing, and transparent algorithmic lineage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Architecture Box -->
+                    <div class="about-visual-box" data-aos="fade-left">
+                        <div class="terminal-card glass-panel">
+                            <div class="terminal-header">
+                                <div class="terminal-dots">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                </div>
+                                <div class="terminal-title">nexora_kernel_daemon.sys</div>
+                                <div class="terminal-badge">LIVE FEED</div>
+                            </div>
+                            <div class="terminal-body font-mono">
+                                <p class="code-line text-cyan">> initializing Nexora Distributed Core v4.8...</p>
+                                <p class="code-line">> allocating 128,000 tensor processing pipelines [OK]</p>
+                                <p class="code-line">> calibrating synthetic neural synaptic weights: 99.98% convergence</p>
+                                <p class="code-line text-violet">> multi-modal sensory inputs: 8 streams synchronized</p>
+                                <div class="terminal-graphic">
+                                    <div class="bar-chart-sim">
+                                        <div class="bar-col" style="--height: 72%;"><span>Vision</span></div>
+                                        <div class="bar-col active" style="--height: 94%;"><span>NLP</span></div>
+                                        <div class="bar-col" style="--height: 85%;"><span>Quantum</span></div>
+                                        <div class="bar-col" style="--height: 91%;"><span>Neural</span></div>
+                                        <div class="bar-col" style="--height: 78%;"><span>Predict</span></div>
+                                    </div>
+                                </div>
+                                <p class="code-line text-green"><i class="fa-solid fa-circle-check"></i> System state: OPTIMAL COGNITIVE PERFORMANCE</p>
+                            </div>
+                            <div class="terminal-footer">
+                                <span class="footer-stat"><i class="fa-solid fa-server"></i> 24 Edge Datacenters</span>
+                                <span class="footer-stat"><i class="fa-solid fa-shield-check"></i> SOC 2 Type II</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animated Statistics Section -->
+                <div class="stats-container" id="statsSection">
+                    <div class="stats-grid">
+                        <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="stat-icon-wrapper">
+                                <i class="fa-solid fa-microchip"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="counter" data-target="500">0</span><span class="stat-suffix">+</span>
+                            </div>
+                            <h4 class="stat-title">Enterprise Deployments</h4>
+                            <p class="stat-desc">Global industry leaders relying on Nexora intelligence</p>
+                        </div>
+
+                        <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-icon-wrapper">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="counter" data-target="99.9" data-decimals="1">0</span><span class="stat-suffix">%</span>
+                            </div>
+                            <h4 class="stat-title">Model Precision Rate</h4>
+                            <p class="stat-desc">Benchmark accuracy across multimodal validation sets</p>
+                        </div>
+
+                        <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-icon-wrapper">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="counter" data-target="45">0</span><span class="stat-suffix">+</span>
+                            </div>
+                            <h4 class="stat-title">Global AI Patents</h4>
+                            <p class="stat-desc">Pioneered intellectual property in neural computing</p>
+                        </div>
+
+                        <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="stat-icon-wrapper">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="stat-number-wrapper">
+                                <span class="counter" data-target="120">0</span><span class="stat-suffix">+</span>
+                            </div>
+                            <h4 class="stat-title">Countries Served</h4>
+                            <p class="stat-desc">Sub-second low-latency inference across 6 continents</p>
+                        </div>
+                    </div>
+                    <!-- Sample Statistics Disclaimer -->
+                    <div class="stats-disclaimer">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>*Note: The statistics displayed above are sample benchmarks representing illustrative enterprise performance and architecture goals.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. AI PRODUCTS -->
+        <section class="section products-section" id="products">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-cubes"></i> ENTERPRISE SUITE
+                    </div>
+                    <h2 class="section-title">Proprietary AI Product Ecosystem</h2>
+                    <p class="section-subtitle">
+                        Every tool within the NEXORA portfolio is built from scratch on our autonomous cognitive architecture. High-throughput, developer-friendly, and enterprise-grade.
+                    </p>
+                </div>
+
+                <!-- 6 Product Cards Grid -->
+                <div class="products-grid">
+                    <!-- Product 1: Nexora Vision -->
+                    <div class="product-card glass-panel" data-tilt data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-glow-overlay"></div>
+                        <div class="product-header">
+                            <div class="product-icon-box cyan-gradient">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <span class="product-badge">Computer Vision</span>
+                        </div>
+                        <h3 class="product-name">Nexora Vision</h3>
+                        <p class="product-subtitle">Computer Vision Intelligence</p>
+                        <p class="product-desc">
+                            High-precision real-time visual recognition, sub-pixel defect detection, spatial 3D reconstruction, and biometric telemetry at 120 FPS.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check text-cyan"></i> Sub-millimeter spatial anomaly tracking</li>
+                            <li><i class="fa-solid fa-circle-check text-cyan"></i> Multi-camera 3D world reconstruction</li>
+                            <li><i class="fa-solid fa-circle-check text-cyan"></i> Edge deployment on low-power devices</li>
+                        </ul>
+                        <div class="product-card-footer">
+                            <button class="btn-product-explore" data-product="vision">
+                                <span>Explore Product</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Nexora Chat -->
+                    <div class="product-card glass-panel" data-tilt data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-glow-overlay"></div>
+                        <div class="product-header">
+                            <div class="product-icon-box violet-gradient">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <span class="product-badge">Conversational AI</span>
+                        </div>
+                        <h3 class="product-name">Nexora Chat</h3>
+                        <p class="product-subtitle">Conversational AI & Cognitive Agent</p>
+                        <p class="product-desc">
+                            Human-fidelity dialogue model with real-time semantic nuance, multilingual contextual memory, emotional cadence, and enterprise tool execution.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check text-violet"></i> 2 Million token continuous context window</li>
+                            <li><i class="fa-solid fa-circle-check text-violet"></i> 100+ languages with colloquial mastery</li>
+                            <li><i class="fa-solid fa-circle-check text-violet"></i> Autonomous multi-step tool reasoning</li>
+                        </ul>
+                        <div class="product-card-footer">
+                            <button class="btn-product-explore" data-product="chat">
+                                <span>Explore Product</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Nexora Brain -->
+                    <div class="product-card glass-panel" data-tilt data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-glow-overlay"></div>
+                        <div class="product-header">
+                            <div class="product-icon-box blue-gradient">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <span class="product-badge">Advanced Analytics</span>
+                        </div>
+                        <h3 class="product-name">Nexora Brain</h3>
+                        <p class="product-subtitle">Advanced AI Analytics & Forecasting</p>
+                        <p class="product-desc">
+                            Hyper-dimensional predictive neural core designed for financial modeling, macro forecasting, market anomaly identification, and causality discovery.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check text-blue"></i> Causal inference beyond simple correlation</li>
+                            <li><i class="fa-solid fa-circle-check text-blue"></i> Real-time streaming timeseries analytics</li>
+                            <li><i class="fa-solid fa-circle-check text-blue"></i> Automated executive hypothesis validation</li>
+                        </ul>
+                        <div class="product-card-footer">
+                            <button class="btn-product-explore" data-product="brain">
+                                <span>Explore Product</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Nexora Auto -->
+                    <div class="product-card glass-panel" data-tilt data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-glow-overlay"></div>
+                        <div class="product-header">
+                            <div class="product-icon-box emerald-gradient">
+                                <i class="fa-solid fa-robot"></i>
+                            </div>
+                            <span class="product-badge">Intelligent Automation</span>
+                        </div>
+                        <h3 class="product-name">Nexora Auto</h3>
+                        <p class="product-subtitle">Autonomous Process Automation</p>
+                        <p class="product-desc">
+                            Self-orchestrating intelligent software agents that navigate complex corporate ERPs, automate multi-departmental workflows, and resolve operational bottlenecks.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check text-emerald"></i> Self-healing robotic process orchestration</li>
+                            <li><i class="fa-solid fa-circle-check text-emerald"></i> Human-in-the-loop governance safety</li>
+                            <li><i class="fa-solid fa-circle-check text-emerald"></i> Universal API & legacy UI interaction</li>
+                        </ul>
+                        <div class="product-card-footer">
+                            <button class="btn-product-explore" data-product="auto">
+                                <span>Explore Product</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Nexora Data -->
+                    <div class="product-card glass-panel" data-tilt data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-glow-overlay"></div>
+                        <div class="product-header">
+                            <div class="product-icon-box amber-gradient">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <span class="product-badge">Data Intelligence</span>
+                        </div>
+                        <h3 class="product-name">Nexora Data</h3>
+                        <p class="product-subtitle">Data Intelligence & Synthetic Generation</p>
+                        <p class="product-desc">
+                            Automated petabyte data preparation, synthetic data generation with strict privacy compliance, dynamic vector indexing, and real-time knowledge graphs.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check text-amber"></i> Differential privacy synthetic data engine</li>
+                            <li><i class="fa-solid fa-circle-check text-amber"></i> Distributed vector search at billion-scale</li>
+                            <li><i class="fa-solid fa-circle-check text-amber"></i> Continuous unstructured-to-graph ontology</li>
+                        </ul>
+                        <div class="product-card-footer">
+                            <button class="btn-product-explore" data-product="data">
+                                <span>Explore Product</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Nexora Create -->
+                    <div class="product-card glass-panel" data-tilt data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-glow-overlay"></div>
+                        <div class="product-header">
+                            <div class="product-icon-box magenta-gradient">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <span class="product-badge">Generative AI</span>
+                        </div>
+                        <h3 class="product-name">Nexora Create</h3>
+                        <p class="product-subtitle">Multimodal Generative AI Studio</p>
+                        <p class="product-desc">
+                            Next-era generative diffusion and autoregressive synthesis: studio-grade 8K synthetic video, ultra-photorealistic assets, 3D meshes, and code generation.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-circle-check text-magenta"></i> Latent-consistency 8K video synthesis</li>
+                            <li><i class="fa-solid fa-circle-check text-magenta"></i> Instant parametric 3D asset generation</li>
+                            <li><i class="fa-solid fa-circle-check text-magenta"></i> Full-stack architecture code generation</li>
+                        </ul>
+                        <div class="product-card-footer">
+                            <button class="btn-product-explore" data-product="create">
+                                <span>Explore Product</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. AI APPLICATIONS -->
+        <section class="section applications-section" id="applications">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-industry"></i> REAL-WORLD IMPACT
+                    </div>
+                    <h2 class="section-title">Transforming Global Industries</h2>
+                    <p class="section-subtitle">
+                        From precision oncology to autonomous flight corridors, NEXORA AI powers the mission-critical systems that elevate society.
+                    </p>
+                </div>
+
+                <!-- 8 Industry Cards Grid -->
+                <div class="applications-grid">
+                    <!-- 1. Healthcare -->
+                    <div class="app-card" data-aos="fade-up">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80" alt="AI in Healthcare" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-heart-pulse"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">Life Sciences</span>
+                            <h3 class="app-title">Healthcare & Oncology</h3>
+                            <p class="app-desc">Accelerating molecular drug discovery by 10x, micro-tumor segmentation in radiology scans, and personalized genomics sequencing.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">98.7%</span>
+                                <span class="stat-label">Early diagnostic accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Education -->
+                    <div class="app-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80" alt="AI in Education" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-graduation-cap"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">EdTech</span>
+                            <h3 class="app-title">Education & Learning</h3>
+                            <p class="app-desc">Dynamic personalized cognitive tutoring, real-time learning curve calibration, and automated multilingual curriculum translation.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">3.4x</span>
+                                <span class="stat-label">Knowledge retention rate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Finance -->
+                    <div class="app-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=700&q=80" alt="AI in Finance" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-chart-line"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">FinTech</span>
+                            <h3 class="app-title">Finance & Trading</h3>
+                            <p class="app-desc">Microsecond algorithmic market making, real-time cross-border fraud interception, and automated risk portfolio balance.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">&lt; 3ms</span>
+                                <span class="stat-label">Fraud detection latency</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Manufacturing -->
+                    <div class="app-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80" alt="AI in Manufacturing" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-gears"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">Industry 4.0</span>
+                            <h3 class="app-title">Smart Manufacturing</h3>
+                            <p class="app-desc">Predictive equipment maintenance before failure occurs, automated optical inspection on gigafactories, and robotic assembly coordination.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">42%</span>
+                                <span class="stat-label">Unscheduled downtime reduction</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Transportation -->
+                    <div class="app-card" data-aos="fade-up">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=80" alt="AI in Transportation" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-car-side"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">Mobility</span>
+                            <h3 class="app-title">Transportation & Logistics</h3>
+                            <p class="app-desc">Level 4/5 autonomous navigation stacks, city-scale traffic light coordination, and automated fleet route optimization.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">35%</span>
+                                <span class="stat-label">Fuel & logistics cost saved</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Agriculture -->
+                    <div class="app-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=700&q=80" alt="AI in Agriculture" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-seedling"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">AgriTech</span>
+                            <h3 class="app-title">Precision Agriculture</h3>
+                            <p class="app-desc">Autonomous drone multispectral crop monitoring, soil moisture algorithmic prediction, and targeted pesticide micro-dosing.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">28%</span>
+                                <span class="stat-label">Yield volume increase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Cybersecurity -->
+                    <div class="app-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80" alt="AI in Cybersecurity" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-shield-virus"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">Cyber Defense</span>
+                            <h3 class="app-title">Autonomous Cybersecurity</h3>
+                            <p class="app-desc">Heuristic zero-day exploit neutralization, real-time polymorphic attack isolation, and self-patching firewall protocols.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">99.99%</span>
+                                <span class="stat-label">Threat containment speed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8. Smart Cities -->
+                    <div class="app-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="app-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=80" alt="AI in Smart Cities" loading="lazy">
+                            <div class="app-img-overlay"></div>
+                            <div class="app-icon-floating"><i class="fa-solid fa-city"></i></div>
+                        </div>
+                        <div class="app-content">
+                            <span class="app-sector">Urban Tech</span>
+                            <h3 class="app-title">Smart Cities & Energy</h3>
+                            <p class="app-desc">Predictive renewable smart-grid balancing, automated public infrastructure health checks, and waste stream optimization.</p>
+                            <div class="app-impact-stat">
+                                <span class="stat-highlight">30%</span>
+                                <span class="stat-label">Carbon footprint reduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. OUR TECHNOLOGY & FUTURISTIC ARCHITECTURE DIAGRAM -->
+        <section class="section technology-section" id="technology">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-microchip-ai"></i> FOUNDATIONAL ARCHITECTURE
+                    </div>
+                    <h2 class="section-title">The Engine Behind The Magic</h2>
+                    <p class="section-subtitle">
+                        Discover the eight core scientific pillars that converge inside the Nexora Neural Operating System.
+                    </p>
+                </div>
+
+                <!-- 8 Core Tech Cards -->
+                <div class="tech-grid">
+                    <div class="tech-card" data-aos="fade-up">
+                        <div class="tech-card-icon"><i class="fa-solid fa-gear-code"></i></div>
+                        <h4>Machine Learning</h4>
+                        <p>Gradient-boosted decision trees, reinforcement learning from human feedback (RLHF), and self-supervised continuous estimators.</p>
+                        <div class="tech-card-meta"><span>99.4% F1-Score</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="tech-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h4>Deep Learning</h4>
+                        <p>Multi-layered convolutional, recurrent, and residual tensor networks engineered for ultra-deep hierarchical abstraction.</p>
+                        <div class="tech-card-meta"><span>120+ Layers</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="tech-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h4>Neural Networks</h4>
+                        <p>Spiking neural networks (SNNs) and graph neural networks (GNNs) mapped directly to neuromorphic computing silicon.</p>
+                        <div class="tech-card-meta"><span>Neuromorphic Ready</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="tech-card-icon"><i class="fa-solid fa-language"></i></div>
+                        <h4>Natural Language Processing</h4>
+                        <p>Sparse-mixture-of-experts (MoE) transformers decoding multi-lingual semantic syntax, emotional context, and pragmatics.</p>
+                        <div class="tech-card-meta"><span>MoE Architecture</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up">
+                        <div class="tech-card-icon"><i class="fa-solid fa-camera-viewfinder"></i></div>
+                        <h4>Computer Vision</h4>
+                        <p>Vision Transformers (ViT) and NeRF (Neural Radiance Fields) enabling real-time volumetric scene rendering and semantic depth.</p>
+                        <div class="tech-card-meta"><span>Sub-pixel Depth</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="tech-card-icon"><i class="fa-solid fa-wand-magic"></i></div>
+                        <h4>Generative AI</h4>
+                        <p>Continuous-time diffusion models, autoregressive multi-token prediction, and flow matching for high-fidelity content synthesis.</p>
+                        <div class="tech-card-meta"><span>Diffusion & Flow</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="tech-card-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h4>Robotics & Embodied AI</h4>
+                        <p>Vision-Language-Action (VLA) foundation models powering physical humanoid and industrial kinematic coordination.</p>
+                        <div class="tech-card-meta"><span>Kinematic Precision</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                    <div class="tech-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="tech-card-icon"><i class="fa-solid fa-chart-mixed"></i></div>
+                        <h4>Predictive Analytics</h4>
+                        <p>Stochastic differential equation solvers and Bayesian neural networks yielding calibrated probability distributions.</p>
+                        <div class="tech-card-meta"><span>Bayesian Confidence</span><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+                </div>
+
+                <!-- FUTURISTIC INTERACTIVE NETWORK ARCHITECTURE DIAGRAM -->
+                <div class="architecture-visualizer glass-panel" data-aos="zoom-in">
+                    <div class="visualizer-header">
+                        <div class="vis-badge">INTERACTIVE ARCHITECTURE</div>
+                        <h3>Nexora Synaptic Dataflow Pipeline</h3>
+                        <p>Click on any layer to inspect node metrics and data transformation states in real-time.</p>
+                    </div>
+
+                    <div class="pipeline-diagram">
+                        <!-- Layer 1 -->
+                        <div class="pipeline-node active" data-layer="ingest">
+                            <div class="node-glow-ring"></div>
+                            <div class="node-icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+                            <span class="node-layer">LAYER 01</span>
+                            <span class="node-title">Ingestion & Telemetry</span>
+                            <span class="node-meta">100M events/s</span>
+                        </div>
+
+                        <!-- Connector 1 -->
+                        <div class="pipeline-connector">
+                            <span class="signal-pulse"></span>
+                        </div>
+
+                        <!-- Layer 2 -->
+                        <div class="pipeline-node" data-layer="quantum">
+                            <div class="node-glow-ring"></div>
+                            <div class="node-icon"><i class="fa-solid fa-atom"></i></div>
+                            <span class="node-layer">LAYER 02</span>
+                            <span class="node-title">Neural Transformer Core</span>
+                            <span class="node-meta">540B Weights</span>
+                        </div>
+
+                        <!-- Connector 2 -->
+                        <div class="pipeline-connector">
+                            <span class="signal-pulse"></span>
+                        </div>
+
+                        <!-- Layer 3 -->
+                        <div class="pipeline-node" data-layer="guardrails">
+                            <div class="node-glow-ring"></div>
+                            <div class="node-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <span class="node-layer">LAYER 03</span>
+                            <span class="node-title">Ethical Guardrails</span>
+                            <span class="node-meta">Zero-Bias Filter</span>
+                        </div>
+
+                        <!-- Connector 3 -->
+                        <div class="pipeline-connector">
+                            <span class="signal-pulse"></span>
+                        </div>
+
+                        <!-- Layer 4 -->
+                        <div class="pipeline-node" data-layer="inference">
+                            <div class="node-glow-ring"></div>
+                            <div class="node-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                            <span class="node-layer">LAYER 04</span>
+                            <span class="node-title">Sub-ms Global Edge</span>
+                            <span class="node-meta">&lt; 2.5ms Latency</span>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Layer Info Panel -->
+                    <div class="layer-detail-box" id="layerDetailBox">
+                        <div class="detail-header">
+                            <span class="detail-badge" id="layerBadge">ACTIVE LAYER: 01</span>
+                            <h4 id="layerTitle">Ingestion & Real-Time Multimodal Telemetry</h4>
+                        </div>
+                        <p id="layerDescription">
+                            High-velocity streaming ingest engine capable of parsing visual feeds, unstructured text, audio spectral data, and IoT sensor metrics simultaneously into unified high-dimensional vector embeddings.
+                        </p>
+                        <div class="detail-metrics">
+                            <div class="d-metric"><span class="m-val" id="metric1">100M/sec</span><span class="m-lbl">Throughput</span></div>
+                            <div class="d-metric"><span class="m-val" id="metric2">0.24ms</span><span class="m-lbl">Serialization</span></div>
+                            <div class="d-metric"><span class="m-val" id="metric3">99.999%</span><span class="m-lbl">Data Integrity</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. OUR TEAM -->
+        <section class="section team-section" id="team">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-users-gear"></i> THE MINDS OF NEXORA
+                    </div>
+                    <h2 class="section-title">World-Class Research & Leadership</h2>
+                    <p class="section-subtitle">
+                        Our multidisciplinary team comprises alumni from Stanford, MIT, Oxford, and pioneering researchers from leading frontier labs.
+                    </p>
+                </div>
+
+                <div class="team-grid">
+                    <!-- Member 1: Dr. Elena Vance -->
+                    <div class="team-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Dr. Elena Vance" class="member-photo" loading="lazy">
+                            <div class="photo-glow-ring"></div>
+                            <div class="member-socials">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" aria-label="X Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <h3 class="member-name">Dr. Elena Vance</h3>
+                            <span class="member-role">Chief AI Scientist & Co-Founder</span>
+                            <span class="member-pedigree">Ph.D. Stanford AI Lab • Ex-DeepMind Lead</span>
+                            <p class="member-bio">
+                                Pioneer of non-linear sparse attention mechanisms and autorun neuromorphic chips. Over 80 peer-reviewed papers in NeurIPS and ICML.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Member 2: Marcus Sterling -->
+                    <div class="team-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Marcus Sterling" class="member-photo" loading="lazy">
+                            <div class="photo-glow-ring"></div>
+                            <div class="member-socials">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" aria-label="X Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <h3 class="member-name">Marcus Sterling</h3>
+                            <span class="member-role">Chief Executive Officer</span>
+                            <span class="member-pedigree">Harvard MBA • Serial Tech Entrepreneur</span>
+                            <p class="member-bio">
+                                15+ years scaling deep-tech startups from seed to multi-billion dollar IPOs. Passionate about ethical governance and sovereign infrastructure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Member 3: Dr. Kenji Sato -->
+                    <div class="team-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Dr. Kenji Sato" class="member-photo" loading="lazy">
+                            <div class="photo-glow-ring"></div>
+                            <div class="member-socials">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" aria-label="X Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <h3 class="member-name">Dr. Kenji Sato</h3>
+                            <span class="member-role">VP of Neural Architecture</span>
+                            <span class="member-pedigree">Ph.D. MIT CSAIL • Quantum Fellow</span>
+                            <p class="member-bio">
+                                Architect of Nexora's proprietary tensor pipeline. Leading research in sub-precision integer quantization and neuromorphic memory interfaces.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Member 4: Sarah Jenkins -->
+                    <div class="team-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80" alt="Sarah Jenkins" class="member-photo" loading="lazy">
+                            <div class="photo-glow-ring"></div>
+                            <div class="member-socials">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" aria-label="X Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <h3 class="member-name">Sarah Jenkins</h3>
+                            <span class="member-role">VP of Ethical AI & Alignment</span>
+                            <span class="member-pedigree">M.Sc. Oxford University • UN AI Advisory</span>
+                            <p class="member-bio">
+                                Creator of the Nexora Bias Neutralization Standard. Oversees algorithmic fairness, democratic guardrails, and cryptographic provenance checks.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Member 5: Liam O'Connor -->
+                    <div class="team-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80" alt="Liam O'Connor" class="member-photo" loading="lazy">
+                            <div class="photo-glow-ring"></div>
+                            <div class="member-socials">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" aria-label="X Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <h3 class="member-name">Liam O'Connor</h3>
+                            <span class="member-role">Director of Quantum & Edge Systems</span>
+                            <span class="member-pedigree">Ph.D. Cambridge • Ex-CERN Engineer</span>
+                            <p class="member-bio">
+                                Specializes in distributed ultra-low latency inference nodes, fault-tolerant edge clusters, and quantum entanglement simulators.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Member 6: Dr. Aisha Patel -->
+                    <div class="team-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1534751516642-a171ed243542?auto=format&fit=crop&w=600&q=80" alt="Dr. Aisha Patel" class="member-photo" loading="lazy">
+                            <div class="photo-glow-ring"></div>
+                            <div class="member-socials">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" aria-label="X Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <h3 class="member-name">Dr. Aisha Patel</h3>
+                            <span class="member-role">Head of Multimodal Synthesis</span>
+                            <span class="member-pedigree">Ph.D. Berkeley • Generative Pioneer</span>
+                            <p class="member-bio">
+                                Leading the synthesis of real-time 8K video, acoustic spatial rendering, and hyper-fidelity synthetic simulation worlds.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-disclaimer text-center">
+                    <span class="mono-badge">*Executive bios and profiles displayed represent illustrative sample corporate personas.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. INNOVATION AND FUTURE: "BUILDING TOMORROW, TODAY." -->
+        <section class="section future-section" id="future">
+            <div class="container">
+                <div class="future-container glass-panel">
+                    <div class="future-grid">
+                        <div class="future-text-side" data-aos="fade-right">
+                            <div class="section-tag">
+                                <i class="fa-solid fa-rocket-launch"></i> HORIZON 2030 INITIATIVE
+                            </div>
+                            <h2 class="future-headline">
+                                BUILDING TOMORROW, <br>
+                                <span class="gradient-text-electric">TODAY.</span>
+                            </h2>
+                            <p class="future-lead">
+                                Artificial intelligence is not merely a modern convenience—it is the technological metamorphosis of our species. At NEXORA AI, we are establishing the foundations for a world that thinks with us.
+                            </p>
+                            <p class="future-body">
+                                We envision a future where autonomous discovery solves clean energy fusion in months rather than decades; where disease is eradicated before symptoms appear; and where global supply networks dynamically adapt to climate conditions without human friction.
+                            </p>
+
+                            <!-- Roadmap Milestones -->
+                            <div class="roadmap-list">
+                                <div class="roadmap-item">
+                                    <div class="roadmap-marker cyan-marker"><i class="fa-solid fa-atom"></i></div>
+                                    <div class="roadmap-info">
+                                        <span class="roadmap-year">PHASE I • 2025</span>
+                                        <h4>Quantum Neural Convergence</h4>
+                                        <p>Hybrid classical-quantum accelerators delivering 10,000x compute density for chemical synthesis.</p>
+                                    </div>
+                                </div>
+
+                                <div class="roadmap-item">
+                                    <div class="roadmap-marker violet-marker"><i class="fa-solid fa-microscope"></i></div>
+                                    <div class="roadmap-info">
+                                        <span class="roadmap-year">PHASE II • 2026</span>
+                                        <h4>Autonomous Scientific Discovery</h4>
+                                        <p>Self-directed agent laboratories formulating and testing novel physical hypotheses in continuous loops.</p>
+                                    </div>
+                                </div>
+
+                                <div class="roadmap-item">
+                                    <div class="roadmap-marker blue-marker"><i class="fa-solid fa-network-wired"></i></div>
+                                    <div class="roadmap-info">
+                                        <span class="roadmap-year">PHASE III • 2027+</span>
+                                        <h4>Planetary Cognitive Fabric</h4>
+                                        <p>Global decentralized intelligence mesh optimizing city logistics, energy balance, and planetary ecological stability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right: Futuristic Holographic Digital World Visual -->
+                        <div class="future-visual-side" data-aos="fade-left">
+                            <div class="digital-world-wrapper">
+                                <div class="globe-hologram">
+                                    <div class="globe-wireframe"></div>
+                                    <div class="globe-lat-ring"></div>
+                                    <div class="globe-lon-ring"></div>
+                                    <div class="globe-core-glow"></div>
+                                    
+                                    <!-- Orbiting Tech Elements -->
+                                    <div class="satellite-node sat-1">
+                                        <i class="fa-solid fa-satellite-dish"></i>
+                                        <span>Orbital Node 01</span>
+                                    </div>
+                                    <div class="satellite-node sat-2">
+                                        <i class="fa-solid fa-microchip"></i>
+                                        <span>Sub-Matrix</span>
+                                    </div>
+                                    <div class="satellite-node sat-3">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Global Defense</span>
+                                    </div>
+                                </div>
+
+                                <!-- Futuristic Metric Stream -->
+                                <div class="world-metric-box">
+                                    <div class="metric-row">
+                                        <span>SYNCHRONIZED CONTINENTS:</span>
+                                        <strong class="text-cyan">6 / 6 [GLOBAL]</strong>
+                                    </div>
+                                    <div class="metric-row">
+                                        <span>NEURAL NODES ONLINE:</span>
+                                        <strong class="text-violet">4,819,200</strong>
+                                    </div>
+                                    <div class="metric-row">
+                                        <span>ETHICAL BIAS INDEX:</span>
+                                        <strong class="text-green">0.0001 [ZERO-BIAS]</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BONUS INTERACTIVE SECTION: LIVE AI PLAYGROUND DEMO -->
+        <section class="section demo-section">
+            <div class="container">
+                <div class="glass-panel demo-box" data-aos="zoom-in">
+                    <div class="demo-header">
+                        <div class="demo-tag"><i class="fa-solid fa-terminal"></i> INTERACTIVE PREVIEW</div>
+                        <h3 class="demo-title">Experience Nexora Cognitive Engine In Action</h3>
+                        <p class="demo-subtitle">Select an inference task below to witness real-time cognitive reasoning and synthetic output streaming.</p>
+                    </div>
+
+                    <div class="demo-controls">
+                        <button class="demo-btn active" data-task="vision"><i class="fa-solid fa-eye"></i> Vision Defect Scan</button>
+                        <button class="demo-btn" data-task="nlp"><i class="fa-solid fa-language"></i> Semantic Reasoning</button>
+                        <button class="demo-btn" data-task="code"><i class="fa-solid fa-code"></i> Quantum Code Synthesis</button>
+                    </div>
+
+                    <div class="demo-terminal">
+                        <div class="terminal-bar">
+                            <span class="t-circle red"></span>
+                            <span class="t-circle yellow"></span>
+                            <span class="t-circle green"></span>
+                            <span class="t-title">nexora-inference-sandbox // execution-node-eu-west</span>
+                            <span class="t-status"><span class="live-dot"></span> Streaming Active</span>
+                        </div>
+                        <div class="terminal-output font-mono" id="demoOutput">
+                            <!-- Streamed content injected by script.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <div class="section-tag">
+                        <i class="fa-solid fa-paper-plane"></i> INITIATE CONTACT
+                    </div>
+                    <h2 class="section-title">Connect With The Architects of AI</h2>
+                    <p class="section-subtitle">
+                        Ready to deploy Nexora in your enterprise or schedule a dedicated architectural consultation? Our technical partners respond within 4 hours.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left: Company Info & Global Hubs -->
+                    <div class="contact-info-panel glass-panel" data-aos="fade-right">
+                        <h3 class="info-panel-title">Nexora Global Headquarters</h3>
+                        <p class="info-panel-desc">
+                            Reach out directly to our enterprise solutions team or visit one of our international neural research centers.
+                        </p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon cyan-gradient">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Primary Research Hub</span>
+                                    <p class="info-value">555 Innovation Boulevard, Suite 1000<br>Silicon Valley, CA 94025, USA</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon violet-gradient">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Email Communications</span>
+                                    <p class="info-value"><a href="mailto:contact@nexora.ai">contact@nexora.ai</a></p>
+                                    <p class="info-value-sub">Press: <a href="mailto:press@nexora.ai">press@nexora.ai</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon blue-gradient">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="info-details">
+                                    <span class="info-label">Enterprise Inquiries</span>
+                                    <p class="info-value">+1 (800) 555-NEXORA (Toll-Free)</p>
+                                    <p class="info-value-sub">Direct: +1 (650) 492-8000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Global Office Pills -->
+                        <div class="global-hubs">
+                            <span class="hub-pill"><i class="fa-solid fa-building"></i> San Francisco</span>
+                            <span class="hub-pill"><i class="fa-solid fa-building"></i> London</span>
+                            <span class="hub-pill"><i class="fa-solid fa-building"></i> Tokyo</span>
+                            <span class="hub-pill"><i class="fa-solid fa-building"></i> Singapore</span>
+                        </div>
+
+                        <!-- Social Media Links -->
+                        <div class="contact-socials">
+                            <span class="socials-label">Connect Globally:</span>
+                            <div class="social-icons-group">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon" aria-label="Nexora LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://x.com" target="_blank" rel="noopener" class="social-icon" aria-label="Nexora X"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="social-icon" aria-label="Nexora GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://discord.com" target="_blank" rel="noopener" class="social-icon" aria-label="Nexora Discord"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon" aria-label="Nexora YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-sample-tag">
+                            <i class="fa-solid fa-info-circle"></i> *Sample corporate addresses & phone information provided for demonstration purposes.
+                        </div>
+                    </div>
+
+                    <!-- Right: Working Contact Form with Full Validation -->
+                    <div class="contact-form-panel glass-panel" data-aos="fade-left">
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <h3 class="form-title">Send Us A Transmission</h3>
+                            <p class="form-subtitle">Fill in the fields below. Our neural routing algorithm forwards your message directly to the appropriate research lead.</p>
+
+                            <!-- Full Name -->
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">Full Name <span class="required">*</span></label>
+                                <div class="input-wrap">
+                                    <i class="fa-solid fa-user input-icon"></i>
+                                    <input type="text" id="fullName" name="fullName" class="form-input" placeholder="e.g. Dr. Alexander Bennett" required>
+                                </div>
+                                <span class="form-error" id="nameError">Please enter your full name (minimum 2 characters).</span>
+                            </div>
+
+                            <!-- Email Address -->
+                            <div class="form-group">
+                                <label for="email" class="form-label">Corporate Email Address <span class="required">*</span></label>
+                                <div class="input-wrap">
+                                    <i class="fa-solid fa-envelope input-icon"></i>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="alexander@organization.com" required>
+                                </div>
+                                <span class="form-error" id="emailError">Please enter a valid business email address.</span>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Inquiry Subject <span class="required">*</span></label>
+                                <div class="input-wrap">
+                                    <i class="fa-solid fa-tag input-icon"></i>
+                                    <select id="subject" name="subject" class="form-input select-input" required>
+                                        <option value="" disabled selected>Select inquiry topic...</option>
+                                        <option value="Enterprise Platform Deployment">Enterprise Platform Deployment</option>
+                                        <option value="Nexora Vision Integration">Nexora Vision Integration</option>
+                                        <option value="Cognitive Chat & Agent Systems">Cognitive Chat & Agent Systems</option>
+                                        <option value="Research & Academic Collaboration">Research & Academic Collaboration</option>
+                                        <option value="Investor Relations & Partnerships">Investor Relations & Partnerships</option>
+                                        <option value="General Technical Question">General Technical Question</option>
+                                    </select>
+                                </div>
+                                <span class="form-error" id="subjectError">Please select an inquiry topic.</span>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message <span class="required">*</span></label>
+                                <div class="input-wrap textarea-wrap">
+                                    <i class="fa-solid fa-message input-icon"></i>
+                                    <textarea id="message" name="message" class="form-input form-textarea" rows="4" placeholder="Detail your operational requirements, target throughput, or questions..." required></textarea>
+                                </div>
+                                <span class="form-error" id="messageError">Please provide a message with at least 15 characters.</span>
+                            </div>
+
+                            <!-- Security / Consent Checkbox -->
+                            <div class="form-checkbox-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="ndaCheck" name="ndaCheck" checked>
+                                    <span class="checkmark"></span>
+                                    <span class="checkbox-text">Request execution under Mutual Non-Disclosure Agreement (MNDA)</span>
+                                </label>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn-primary-glow btn-submit" id="submitBtn">
+                                <span class="btn-text" id="submitBtnText">Transmit Message</span>
+                                <i class="fa-solid fa-paper-plane btn-icon" id="submitBtnIcon"></i>
+                            </button>
+                        </form>
+
+                        <!-- Submission Success Message Box -->
+                        <div class="form-success-box" id="formSuccess">
+                            <div class="success-icon-wrap">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h4>Transmission Successfully Dispatched</h4>
+                            <p>Thank you for connecting with NEXORA AI. Your message has been encrypted and assigned transmission ID: <span class="text-cyan font-mono" id="txId">#NX-894102</span>. A specialist will reply within 4 hours.</p>
+                            <button class="btn-glass-secondary btn-sm" id="resetFormBtn">Send Another Inquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-col">
+                    <a href="#home" class="logo-brand">
+                        <div class="logo-symbol">
+                            <div class="cube-inner"></div>
+                            <div class="cube-orbit"></div>
+                        </div>
+                        <div class="logo-text-group">
+                            <span class="brand-name">NEXORA<span class="text-cyan">.AI</span></span>
+                            <span class="brand-sub">BEYOND IMAGINATION</span>
+                        </div>
+                    </a>
+                    <p class="footer-bio">
+                        Engineering world-class neural networks, autonomous decision architectures, and next-generation cognitive systems for enterprise scale.
+                    </p>
+                    <div class="compliance-badges">
+                        <span class="comp-badge"><i class="fa-solid fa-shield-check"></i> SOC 2 TYPE II</span>
+                        <span class="comp-badge"><i class="fa-solid fa-lock"></i> GDPR COMPLIANT</span>
+                        <span class="comp-badge"><i class="fa-solid fa-file-contract"></i> ISO 42001 AI</span>
+                    </div>
+                </div>
+
+                <!-- Footer Nav Columns -->
+                <div class="footer-links-col">
+                    <h5 class="footer-col-title">AI Products</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#products">Nexora Vision</a></li>
+                        <li><a href="#products">Nexora Chat</a></li>
+                        <li><a href="#products">Nexora Brain</a></li>
+                        <li><a href="#products">Nexora Auto</a></li>
+                        <li><a href="#products">Nexora Data</a></li>
+                        <li><a href="#products">Nexora Create</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h5 class="footer-col-title">Foundations</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#technology">Neural Networks</a></li>
+                        <li><a href="#technology">Deep Learning</a></li>
+                        <li><a href="#technology">Generative AI</a></li>
+                        <li><a href="#technology">Robotics & VLA</a></li>
+                        <li><a href="#technology">Quantum Simulation</a></li>
+                        <li><a href="#applications">Global Applications</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h5 class="footer-col-title">Company</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#about">About Nexora</a></li>
+                        <li><a href="#team">Research & Team</a></li>
+                        <li><a href="#future">Innovation Horizon</a></li>
+                        <li><a href="#contact">Contact & Support</a></li>
+                        <li><a href="#home">Press Releases</a></li>
+                        <li><a href="#contact">Global Careers <span class="hiring-badge">HIRING</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="footer-newsletter-col">
+                    <h5 class="footer-col-title">Neural Dispatch</h5>
+                    <p class="newsletter-desc">Subscribe to receive monthly peer-reviewed AI breakthroughs and model releases.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="newsletter-input-wrap">
+                            <input type="email" placeholder="Enter corporate email..." class="newsletter-input" id="newsletterEmail" required>
+                            <button type="submit" class="newsletter-btn" aria-label="Subscribe to newsletter">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <span class="newsletter-msg" id="newsletterMsg"></span>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Strip -->
+            <div class="footer-bottom">
+                <div class="copyright-text">
+                    &copy; 2026 NEXORA AI Inc. All rights reserved. Intelligence Beyond Imagination.
+                </div>
+                <div class="footer-legal-links">
+                    <a href="#home">Privacy Policy</a>
+                    <span class="sep">&bull;</span>
+                    <a href="#home">Terms of Service</a>
+                    <span class="sep">&bull;</span>
+                    <a href="#home">Responsible AI Charter</a>
+                    <span class="sep">&bull;</span>
+                    <a href="#home">Security Whitepaper</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE PRODUCT DETAIL MODAL -->
+    <div class="modal-backdrop" id="productModal">
+        <div class="modal-dialog glass-panel">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamically populated via script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP BUTTON WITH PROGRESS RING -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to top of page">
+        <svg class="progress-ring" width="48" height="48">
+            <circle class="progress-ring__circle" stroke="url(#cyanVioletGrad)" stroke-width="3" fill="transparent" r="21" cx="24" cy="24"/>
+            <defs>
+                <linearGradient id="cyanVioletGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00f5d4" />
+                    <stop offset="100%" stop-color="#8b5cf6" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <i class="fa-solid fa-arrow-up icon-arrow"></i>
+    </button>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
