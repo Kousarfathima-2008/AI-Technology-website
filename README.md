@@ -86,9 +86,9 @@ Rich contextual case studies with high-resolution imagery and impact metrics:
 
 ### 7. Global Strategic Mentors & Advisory Council
 Featuring real-world visionary mentors with authentic high-resolution portraits, real-world quotes, domain focus tags, and verified profile links:
+- **Rahul Attuluri** (Co-Founder & CEO, NxtWave) – *Deep-Tech Talent, WEF Tech Pioneer, AI Education 4.0*
 - **Elon Musk** (xAI • Tesla • SpaceX) – *Physical AI, Colossus 100k Supercluster, Optimus Robotics*
 - **Satya Nadella** (Chairman & CEO, Microsoft) – *Enterprise Scale, Azure AI Infrastructure, Copilot Ecosystem*
-- **Rahul Attuluri** (Co-Founder & CEO, NxtWave) – *Deep-Tech Talent, WEF Tech Pioneer, AI Education 4.0*
 - **Jensen Huang** (Founder, President & CEO, NVIDIA) – *Accelerated GPU Silicon, Blackwell B200, CUDA*
 - **Sam Altman** (CEO, OpenAI) – *Frontier Foundation LLMs, AGI Roadmap, Superalignment*
 - **Dr. Demis Hassabis** (CEO, Google DeepMind • 2024 Nobel Laureate in Chemistry) – *Biomolecular AI, AlphaFold 3, Gemini*
