@@ -1,0 +1,20 @@
+{
+  "name": "ai-technology-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NEXORA AI – Intelligence Beyond Imagination",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Static build complete'"
+  },
+  "keywords": [
+    "ai",
+    "nexora",
+    "technology",
+    "neural-networks",
+    "deep-learning"
+  ],
+  "author": "NEXORA AI",
+  "license": "ISC"
+}

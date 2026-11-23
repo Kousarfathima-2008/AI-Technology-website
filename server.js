@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const MIME_TYPES = {
     '.html': 'text/html',
     '.css': 'text/css',
@@ -15,19 +15,23 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-    let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url);
+    let cleanUrl = req.url.split('?')[0];
+    let filePath = path.join(__dirname, cleanUrl === '/' ? 'index.html' : cleanUrl);
     const extname = String(path.extname(filePath)).toLowerCase();
     const contentType = MIME_TYPES[extname] || 'application/octet-stream';
 
     fs.readFile(filePath, (error, content) => {
         if (error) {
-            if (error.code === 'ENOENT') {
-                res.writeHead(404, { 'Content-Type': 'text/html' });
-                res.end('<h1>404 - Not Found</h1>', 'utf-8');
-            } else {
-                res.writeHead(500);
-                res.end(`Server Error: ${error.code}`);
-            }
+            // Fallback to index.html for SPA routing
+            fs.readFile(path.join(__dirname, 'index.html'), (fallbackErr, fallbackContent) => {
+                if (fallbackErr) {
+                    res.writeHead(404, { 'Content-Type': 'text/html' });
+                    res.end('<h1>404 - Not Found</h1>', 'utf-8');
+                } else {
+                    res.writeHead(200, { 'Content-Type': 'text/html' });
+                    res.end(fallbackContent, 'utf-8');
+                }
+            });
         } else {
             res.writeHead(200, { 'Content-Type': contentType });
             res.end(content, 'utf-8');
@@ -35,6 +39,10 @@ const server = http.createServer((req, res) => {
     });
 });
 
-server.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}/`);
-});
+if (require.main === module) {
+    server.listen(PORT, () => {
+        console.log(`Server running at http://localhost:${PORT}/`);
+    });
+}
+
+module.exports = server;
