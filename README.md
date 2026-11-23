@@ -84,7 +84,16 @@ Rich contextual case studies with high-resolution imagery and impact metrics:
 - **8 Scientific Pillars**: Machine Learning, Deep Learning, Neural Networks, Natural Language Processing, Computer Vision, Generative AI, Robotics, and Predictive Analytics.
 - **Interactive Synaptic Pipeline Visualizer**: Click through 4 sequential layers (*Ingestion*, *Neural Transformer Core*, *Ethical Guardrails*, *Global Edge*) with animated data-flow pulses and dynamic telemetry metric updates.
 
-### 7. Executive & Research Leadership
+### 7. Global Strategic Mentors & Advisory Council
+Featuring real-world visionary mentors with authentic high-resolution portraits, real-world quotes, domain focus tags, and verified profile links:
+- **Elon Musk** (xAI • Tesla • SpaceX) – *Physical AI, Colossus 100k Supercluster, Optimus Robotics*
+- **Satya Nadella** (Chairman & CEO, Microsoft) – *Enterprise Scale, Azure AI Infrastructure, Copilot Ecosystem*
+- **Rahul Attuluri** (Co-Founder & CEO, NxtWave) – *Deep-Tech Talent, WEF Tech Pioneer, AI Education 4.0*
+- **Jensen Huang** (Founder, President & CEO, NVIDIA) – *Accelerated GPU Silicon, Blackwell B200, CUDA*
+- **Sam Altman** (CEO, OpenAI) – *Frontier Foundation LLMs, AGI Roadmap, Superalignment*
+- **Dr. Demis Hassabis** (CEO, Google DeepMind • 2024 Nobel Laureate in Chemistry) – *Biomolecular AI, AlphaFold 3, Gemini*
+
+### 8. Core Research & Executive Leadership
 6 world-class researcher cards featuring:
 - **Dr. Elena Vance** – Chief AI Scientist (Stanford Ph.D., Ex-DeepMind Lead)
 - **Marcus Sterling** – Chief Executive Officer (Serial Tech Entrepreneur)
@@ -94,22 +103,22 @@ Rich contextual case studies with high-resolution imagery and impact metrics:
 - **Dr. Aisha Patel** – Head of Multimodal Synthesis (Berkeley)
 - Includes pedigree badges, concise bios, and social channel links.
 
-### 8. Innovation and Future: "BUILDING TOMORROW, TODAY."
+### 9. Innovation and Future: "BUILDING TOMORROW, TODAY."
 - **Horizon 2030 Initiative**: Strategic roadmap covering Quantum Neural Convergence (2025), Autonomous Scientific Discovery (2026), and the Planetary Cognitive Fabric (2027+).
 - **3D Holographic Globe**: Rotating wireframe planetary model with latitude/longitude orbital rings and satellite telemetry beacons.
 
-### 9. Interactive AI Playground (Live Sandbox)
+### 10. Interactive AI Playground (Live Sandbox)
 Interactive prompt simulator letting users test real-time simulated AI execution across three workloads:
 - 👁️ **Vision Defect Scan**
 - 💬 **Semantic Reasoning**
 - ⚡ **Quantum Code Synthesis**
 
-### 10. Enterprise Contact Portal
+### 11. Enterprise Contact Portal
 - **Transmission Form**: Field validations for Full Name, Corporate Email, Inquiry Topic, and Detailed Message.
 - **Real-Time Feedback**: Inline error highlights and simulated encrypted transmission dispatch with a unique generated tracking ID (`#NX-XXXXXX`).
 - **Global Hubs**: Silicon Valley Headquarters, London, Tokyo, and Singapore offices with toll-free and direct phone numbers.
 
-### 11. Footer & Compliance
+### 12. Footer & Compliance
 - Enterprise compliance badges (**SOC 2 Type II**, **GDPR Compliant**, **ISO 42001 AI Certification**).
 - Newsletter dispatch subscription with email verification.
 - Comprehensive navigation links and legal disclosures.
